@@ -11,3 +11,14 @@ unicom_user（手机号）
 unicom_appid（http://m.client.10010.com/mobileService/customer/getclientconfig.htm?appId= 开抓包 你再打开手厅就能找到了）
 
 NOTIFY_SCKEY（service酱得key）
+
+
+#多用户配置
+
+https://github.com/你的用户名/88-AutoSignMachine/settings/secrets/actions 然后点击New repository secret
+
+unicom_user2（手机号）
+
+unicom_password2（服务密码）
+
+unicom_appid2（http://m.client.10010.com/mobileService/customer/getclientconfig.htm?appId= 开抓包 你再打开手厅就能找到了或者共享主号的）
