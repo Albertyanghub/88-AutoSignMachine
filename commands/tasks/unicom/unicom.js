@@ -203,7 +203,7 @@ var start = async (params) => {
 
   // 首页-游戏-娱乐中心-天天领取3G流量包
   await scheduler.regTask('dailygameflow', async (request) => {
-    await require('./producGame').allgames(request, options)
+    await require('./producGame').doGameFlowTask(request, options)
   }, taskOption)
 
   // 首页-积分查询-游戏任务
